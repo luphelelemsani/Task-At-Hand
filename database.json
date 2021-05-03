@@ -1,0 +1,307 @@
+{
+  "Products": [
+    {
+      "bestseller": true,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 1,
+      "image": "../assets/images/arch2.jpg",
+      "name": "Red Bench",
+      "price": "3.89"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 2,
+      "image": "../assets/images/arch1.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 3,
+      "image": "../assets/images/woman.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 4,
+      "image": "../assets/images/steak.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 5,
+      "image": "../assets/images/meat.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 6,
+      "image": "../assets/images/build.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 7,
+      "image": "../assets/images/fruit.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 8,
+      "image": "../assets/images/fruit.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 9,
+      "image": "../assets/images/build.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 10,
+      "image": "../assets/images/meat.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 11,
+      "image": "../assets/images/build.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 12,
+      "image": "../assets/images/fruit.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 13,
+      "image": "../assets/images/meat.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 14,
+      "image": "../assets/images/fruit.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 15,
+      "image": "../assets/images/jump.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 16,
+      "image": "../assets/images/build.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 17,
+      "image": "../assets/images/meat.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 18,
+      "image": "../assets/images/meat.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 19,
+      "image": "../assets/images/build.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 20,
+      "image": "../assets/images/meat.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 21,
+      "image": "./assets/images/ice.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 22,
+      "image": "../assets/images/",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 23,
+      "image": "./assets/images/ice.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 24,
+      "image": "./assets/images/ice.jpg",
+      "name": "Egg Balloon",
+      "price": "93.8"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 25,
+      "image": "./assets/images/ice.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "food",
+      "currency": "USD",
+      "featured": false,
+      "id": 26,
+      "image": "../assets/images/build.jpg",
+      "name": "Egg Balloon",
+      "price": "93.89"
+    },
+    {
+      "bestseller": false,
+      "category": "people",
+      "currency": "USD",
+      "featured": false,
+      "id": 27,
+      "image": "../assets/images/fruit.jpg",
+      "name": "Man",
+      "price": "100"
+    },
+    {
+      "bestseller": false,
+      "category": "landmarks",
+      "currency": "USD",
+      "featured": false,
+      "id": 28,
+      "image": "../assets/images/samurai.jpg",
+      "name": "Samurai King Restling",
+      "price": "101"
+    },
+    {
+      "bestseller": false,
+      "featured": true,
+      "details": {
+        "dimensions": { "width": 1020, "height": 1020 },
+        "size": 15000,
+        "description": " So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely scram",
+        "recommendations": [
+          {
+            "src": "../assets/images/ice.jpg",
+            "alt": "Ice"
+          },
+          {
+            "src": "../assets/images/meat.jpg",
+            "alt": "Meat"
+          },
+          {
+            "src": "../assets/images/steak.jpg",
+            "alt": "Steak"
+          }
+        ]
+      }
+    }
+  ]
+}

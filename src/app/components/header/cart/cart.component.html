@@ -1,0 +1,24 @@
+<button
+  mat-icon-button
+  mat-raised-button
+  color="primary"
+  matBadge="8"
+  matBadgePosition="below before"
+  matBadgeColor="accent"
+  [matMenuTriggerFor]="menu"
+>
+  <mat-icon>shopping_cart</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>dialpad</mat-icon>
+    <span>Redial</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>voicemail</mat-icon>
+    <span>Check voice mail</span>
+  </button>
+  <button class="clr-btn" mat-menu-item disabled>
+    <span>CLEAR</span>
+  </button>
+</mat-menu>

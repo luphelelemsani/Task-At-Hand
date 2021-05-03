@@ -1,0 +1,9 @@
+.img-container {
+  width: 50%;
+}
+img {
+  grid-column: 1 / 4;
+  width: 100%;
+  max-width: 100ch;
+  justify-self: center;
+}
