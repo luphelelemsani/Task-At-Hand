@@ -1,10 +1,97 @@
-<ng-container *ngIf="name"> </ng-container>
-
-<ng-template #name
-  ><div>
-    <h1>{{ product.category }}</h1>
-    <button mat-button>ADD TO CART</button>
+<!-- <div>
+  <h1>{{ product.category }}</h1>
+  <button mat-button (click)="addProduct(product)">ADD TO CART</button>
+  <p>{{ product.description }}</p>
+</div>
+<div>
+  <img [src]="product.image" alt="" />
+</div> -->
+<!-- <div class="px-4 pt-5 my-5 text-center border-bottom">
+  <h1 class="display-5 fw-bold lh-1 mb-3">Centered screenshot</h1>
+  <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+    <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
+      Primary button
+    </button>
   </div>
-  <div>
-    <img [src]="product.image" alt="" /></div
-></ng-template>
+
+  <div class="overflow-hidden" style="max-height: 30vh">
+    <div class="container px-5">
+      <img
+        src="../../../../assets/images/samurai.jpg"
+        class="img-fluid border rounded-3 shadow-lg mb-4"
+        alt="Example image"
+        width="700"
+        height="500"
+        loading="lazy"
+      />
+    </div>
+  </div>
+  <div class="col-lg-6 mx-auto">
+    <p class="lead">
+      Quickly design and customize responsive mobile-first sites with Bootstrap,
+      the world’s most popular front-end open source toolkit, featuring Sass
+      variables and mixins, responsive grid system, extensive prebuilt
+      components, and powerful JavaScript plugins.
+    </p>
+  </div>
+</div> -->
+<!-- <ng-container>
+  <div class="container text-center" *ngFor="let product of products">
+    <div class="row">
+      <div class="card" *ngIf="product.featured">
+        <div class="row">
+          <div class="col-6">
+            <h3 class="card-title">{{ product.name }}</h3>
+          </div>
+          <div class="col-6">
+            <button
+              type="button"
+              class="btn btn-dark"
+              style="margin-bottom: 5px"
+              (click)="addProduct(product)"
+            >
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+
+        <img class="card-img-top" [src]="product.image" alt="picture" />
+
+        <div class="card-body">
+          <p class="card-text text-muted">
+            Lorem ipsum dolor sit amet, consectet Lorem ipsum dolor sit amet,
+            consectet Lorem ipsum dolor sit amet, consectet
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-container> -->
+<br />
+<div class="container text-center">
+  <div class="row">
+    <div class="card">
+      <div class="row">
+        <div class="col-6"><h3 class="card-title">SAMURAI PENGUINS</h3></div>
+        <div class="col-6">
+          <button type="button" class="btn btn-dark" style="margin-bottom: 5px">
+            ADD TO CART
+          </button>
+        </div>
+      </div>
+
+      <img
+        class="card-img-top"
+        src="../../assets/images/samurai.jpg"
+        alt="picture"
+      />
+
+      <div class="card-body">
+        <p class="card-text text-muted">
+          ssdgfdg Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+          ipsum dolor sit amet, consectetur adipisicing elit.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

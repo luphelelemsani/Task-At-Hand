@@ -17,6 +17,12 @@ import { ProductComponent } from './components/product-section/products/product/
 import { SortNavComponent } from './components/product-section/sort-nav/sort-nav.component';
 import { FeaturedProdComponent } from './components/hero/featured-prod/featured-prod.component';
 import { MainComponent } from './components/hero/main/main.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+import { OrderModule } from 'ngx-order-pipe';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { FilterPipe } from './pipes/filter.pipe';
+import { SortPipe } from './pipes/sort.pipe';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,9 +37,16 @@ import { MainComponent } from './components/hero/main/main.component';
     SortNavComponent,
     FeaturedProdComponent,
     MainComponent,
+    FilterPipe,
+    SortPipe,
   ],
   imports: [
     HttpClientModule,
+    NgxPaginationModule,
+    Ng2SearchPipeModule,
+    OrderModule,
+    FormsModule,
+    ReactiveFormsModule,
     FlexLayoutModule,
     MaterialModule,
     BrowserModule,

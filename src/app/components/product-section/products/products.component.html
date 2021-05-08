@@ -1,5 +1,63 @@
+<header>
+  <div class="row">
+    <mat-toolbar>
+      <div>
+        <h2>Photography /</h2>
+        <h2 style="color: lightgrey">Premium Photos</h2>
+      </div>
+      <span class="spacer"></span>
+      <mat-form-field class="example-form-field">
+        <mat-label>Search for items</mat-label>
+        <input matInput type="text" [(ngModel)]="value" />
+        <button
+          mat-button
+          *ngIf="value"
+          matSuffix
+          mat-icon-button
+          aria-label="Clear"
+          (click)="value = ''"
+        >
+          <mat-icon>close</mat-icon>
+        </button>
+      </mat-form-field>
+      <span class="spacer"></span>
+      <div fxShow="true" fxHide.lt-md="true">
+        <span><mat-icon> sort </mat-icon>Sort By</span>
+        <mat-form-field appearance="fill">
+          <select
+            matNativeControl
+            #mySelect
+            required
+            (change)="sort(mySelect.value)"
+          >
+            <option value="" selected></option>
+            <option value="price">Price</option>
+            <option value="name">
+              <span>Alphabets</span>
+            </option>
+          </select>
+        </mat-form-field>
+      </div>
+      <div fxShow="true" fxHide.gt-sm="true"><mat-icon> tune </mat-icon></div>
+    </mat-toolbar>
+  </div>
+</header>
+<!-- <div>
+  <mat-checkbox [(ngModel)]="category">food</mat-checkbox>
+</div> -->
+<div class="some-space"></div>
+
 <div class="row">
-  <div class="col-md-4" *ngFor="let product of products">
+  <div
+    class="col-md-4"
+    *ngFor="
+      let product of products
+        | orderBy: key:reverse
+        | paginate: { itemsPerPage: 6, currentPage: p }
+        | filter: value:'category'
+    "
+  >
     <app-product [product]="product"></app-product>
   </div>
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
 </div>

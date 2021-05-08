@@ -2,23 +2,24 @@
   mat-icon-button
   mat-raised-button
   color="primary"
-  matBadge="8"
+  [matBadge]="this.products.length"
   matBadgePosition="below before"
+  [matBadgeHidden]="products.length === 0"
   matBadgeColor="accent"
   [matMenuTriggerFor]="menu"
 >
   <mat-icon>shopping_cart</mat-icon>
 </button>
-<mat-menu #menu="matMenu">
-  <button mat-menu-item>
-    <mat-icon>dialpad</mat-icon>
-    <span>Redial</span>
-  </button>
-  <button mat-menu-item>
-    <mat-icon>voicemail</mat-icon>
-    <span>Check voice mail</span>
-  </button>
-  <button class="clr-btn" mat-menu-item disabled>
+<mat-menu #menu="matMenu"
+  ><div *ngFor="let product of products">
+    <div mat-menu-item>
+      <span>{{ product.name }}</span>
+      <span>{{ product.price | currency }}</span>
+      <mat-icon>{{ product.image }}</mat-icon>
+    </div>
+  </div>
+  <mat-divider></mat-divider>
+  <button class="clr-btn" mat-menu-item (click)="clearCart()">
     <span>CLEAR</span>
-  </button>
-</mat-menu>
+  </button></mat-menu
+>

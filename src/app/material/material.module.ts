@@ -9,6 +9,9 @@ import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 const MaterialComponents = [
   MatSidenavModule,
@@ -21,6 +24,9 @@ const MaterialComponents = [
   MatCardModule,
   MatSelectModule,
   MatCheckboxModule,
+  MatDividerModule,
+  MatInputModule,
+  MatFormFieldModule,
 ];
 @NgModule({
   imports: [MaterialComponents],

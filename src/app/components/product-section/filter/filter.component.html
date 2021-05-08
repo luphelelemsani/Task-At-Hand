@@ -1,4 +1,28 @@
 <section class="example-section">
-  <mat-checkbox class="example-margin">Check me!</mat-checkbox>
-  <mat-checkbox class="example-margin">Disabled</mat-checkbox>
+  <h2 class="title">Category</h2>
+  <span class="example-list-section">
+    <ul>
+      <li *ngFor="let category of categories" [value]="category">
+        <mat-checkbox>{{ category }} </mat-checkbox>
+      </li>
+    </ul>
+  </span>
+  <mat-divider></mat-divider>
+  <h2 class="title">Price Range</h2>
+  <span class="example-list-section">
+    <ul>
+      <li>
+        <mat-checkbox>Less than $20</mat-checkbox>
+      </li>
+      <li>
+        <mat-checkbox>$20 - $100</mat-checkbox>
+      </li>
+      <li>
+        <mat-checkbox>$100 - $200</mat-checkbox>
+      </li>
+      <li>
+        <mat-checkbox>More than $200</mat-checkbox>
+      </li>
+    </ul>
+  </span>
 </section>

@@ -10,7 +10,7 @@ export class ProductsService {
   constructor() {}
 
   addProduct(product: Products) {
-    this.products.push(product);
+    this.products.unshift(product);
   }
 
   getProducts() {
